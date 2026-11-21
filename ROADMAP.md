@@ -1,20 +1,18 @@
 # Roadmap
 
-## Current private work
+[← Yuiluma](README.md)
 
-Refine the four-page Windows experience, preserve scoped local tools and permissions, and measure actual task outcomes. The interface uses the Y1 Woven Stem identity, sidebar New chat, compact conversation controls and About Yuiluma in Settings.
+## Next: confidence in the Windows beta
 
-## Before a public release
+- Test installation and startup on a clean Windows machine.
+- Broaden model and task reliability checks, especially recovery from incomplete tool work.
+- Complete distribution, signing and third-party license review.
+- Keep refining readability, keyboard access and result explanations.
 
-- Complete owner acceptance and fix observed usability and reliability problems.
-- Complete dependency source/notice delivery and library-replacement checks, including Microsoft runtime review.
-- Validate on a genuinely clean second Windows environment and actual display-scale changes.
-- Decide signing/distribution, review product names and marks, and obtain explicit publication approval.
+Public availability requires a separate release decision. There is no announced release date or public download.
 
-## Future directions
+## Later: optional character experiences
 
-- Better measured project continuity and bounded task recovery.
-- An original Reina 3D character with optional Chat Avatar and Desktop Companion modes.
-- Optional character voice, assessed separately for quality, privacy and licensing.
+Explore a 3D Reina dock, desktop companion and dedicated character voice while preserving the focused text workspace. These are future concepts, not features delivered by the current beta.
 
-These are directions rather than promised releases. No dates, paid tiers or model-performance guarantees are announced. This showcase remains private; public visibility and application distribution require separate approval.
+The current scope is recorded in [Features & boundaries](FEATURES.md).

@@ -1,40 +1,43 @@
-<p align="center"><img src="assets/yuiluma.svg" alt="Yuiluma Woven Stem mark" width="64" height="64"></p>
+![Yuiluma — Y1 Woven Stem mark and wordmark](assets/yuiluma-banner.svg)
 
-# Yuiluma
+# A local-first AI assistant for Windows.
 
-**A local-first Windows AI assistant, with Reina as its original assistant character.** Yuiluma combines local conversation, scoped file work, saved memories and scheduled tasks in a quiet, focused desktop interface. It uses a separately installed Ollama model and keeps permissions and execution evidence visible.
+Meet Reina. Plan a project, work with files and keep useful context close at hand — through a local Ollama model, in a focused desktop workspace.
 
-0.1.3 Beta · Private development · No public binary download
+**0.1.3 Beta** · In development · Created by **CozyCookie**
 
-![Yuiluma Chat with sidebar New chat and compact composer](screenshots/chat.jpg)
+![A real conversation with Reina about starting a small project, using a local qwen3:4b model](screenshots/conversation.png)
 
-## Four focused spaces
+*A real local-model exchange in the Windows app. Field Notes is an example project.*
 
-| Space | Purpose |
-| --- | --- |
-| Chat | Talk with a local model, draft requests and inspect results. |
-| Tasks | Manage bounded schedules and review their scope and outcomes. |
-| Memory | Search, edit, pin, export and delete context you choose to keep. |
-| Settings | Configure local AI, workspace permissions, privacy, motion and optional introduction replay. |
+## A focused place to work
 
-Starter prompts fill editable drafts. First Hello is optional; its sample file task requires a chosen folder and explicit approval. Individual action receipts are separate from whole-task verification. Local models can still omit work or give incorrect explanations.
+- **Local conversation.** Talk with Reina through Ollama. Choose an installed model and see its connection and tool status beside your message.
+- **Files with clear permissions.** Work inside a selected workspace. Review proposed overwrites before approving them; inspect the results afterward.
+- **Context you control.** Search, edit and pin local memories. Schedule scoped tasks to run while Yuiluma is open.
 
-![Memory records and editing controls](screenshots/memory.jpg)
+## See what happened
 
-## Control and limits
+Yuiluma distinguishes a model's reply from evidence of completed work. Actions, whole-task results and unfinished work have separate outcomes. Pause and Stop remain available during a task.
 
-Sensitive actions require approval. Pause and Stop are available during work; closing the window cancels activity and cleans up. Completed changes remain. There is no silent cloud fallback or automatic model download. Approved web requests contact the selected website, and approved Python tests have the user's OS permissions.
+![The consented First Hello file task with its independently checked file result](screenshots/file-result.png)
 
-The interface is English. Reply language and quality depend on the chosen model. Reina's future 3D Chat Avatar, Desktop Companion and character voice are planned separately and are **not included**.
+*First Hello is a small, explicitly approved file task: create a folder, write exact text and read it back. Its checks cover this bounded task; they do not verify arbitrary requests.*
 
-![Task scheduling and recorded scope](screenshots/tasks.jpg)
+## Keep the useful context
 
-This private showcase contains product information and sanitized application screenshots only. It offers no source code, binaries or public release. Dependency-distribution review, clean second-machine validation, signing, branding review and owner acceptance remain release gates. No general model or accessibility certification is claimed.
+Memories stay visible and editable. Pin a project decision, correct a preference or remove a record when it no longer belongs.
 
-[Features](FEATURES.md) · [Roadmap](ROADMAP.md) · [Changes](CHANGELOG.md)
+![Local memories with pinned preferences and project context in the real Memory view](screenshots/memory.png)
 
-## About
+*Screenshots show the actual 0.1.3 Beta Windows build in an isolated example profile. Memory entries are synthetic examples. No interface or result was composited.*
 
-Created by CozyCookie
+## In development
 
-![About Yuiluma in Settings](screenshots/about.jpg)
+This is a private product showcase. The Windows beta and application source are not available for public download.
+
+Local models can misunderstand or leave work unfinished. Clean-machine testing and distribution review remain release gates. A future optional 3D Reina and dedicated character voice are exploratory work, not current features.
+
+**Built with** Python · PySide6 · Ollama · SQLite
+
+[Features & boundaries](FEATURES.md) · [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)

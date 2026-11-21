@@ -1,12 +1,22 @@
 # Changelog
 
-## 0.1.3 Beta · private interface update
+[← Yuiluma](README.md)
 
-- Introduced the approved Y1 Woven Stem product mark and a restrained dark reading surface.
-- Placed New chat beneath the sidebar brand while keeping Chat, Tasks, Memory and Settings as the four destinations.
-- Simplified the Chat header and kept a compact composer with nearby model status and controls.
-- Moved introduction replay to Settings and added About Yuiluma with a creator credit.
-- Removed the persistent sidebar Quit action; window closing retains cancellation and cleanup. Pause/Resume/Stop remain available during work.
-- Preserved local Ollama, scoped tools, approvals, memory, schedules and conservative result reporting.
+## 2026-11-21 · Showcase presentation
 
-No avatar, companion, new voice or cloud feature was added. This entry describes a private development candidate, not a public launch or a reliability certification.
+- Added an original banner built around the approved Y1 Woven Stem mark.
+- Replaced the screenshot gallery with fresh, pointer-free captures of the actual Windows app.
+- Simplified the README around conversation, file-result evidence and editable memory.
+- Clarified current capabilities, example data and outstanding release work.
+
+Presentation only. The application and its version are unchanged.
+
+## 0.1.3 Beta · Private interface update
+
+- Introduced the approved Y1 mark and Editorial Precision dark interface.
+- Placed New chat beneath the sidebar brand; kept Chat, Tasks, Memory and Settings as the four destinations.
+- Added a compact composer, nearby model status, introduction replay in Settings and About Yuiluma with creator credit.
+- Retained local Ollama, scoped tools, approvals, memory, schedules and conservative result reporting.
+- Removed the persistent Quit button; window closing still waits for cancellation and cleanup. Pause, Resume and Stop remain available during work.
+
+No 3D avatar, companion, new character voice or cloud feature was added. This describes a private development candidate, not a public release.

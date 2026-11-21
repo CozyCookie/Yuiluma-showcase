@@ -1,19 +1,20 @@
-# Features and boundaries
+# Features & boundaries
 
-Yuiluma is a private Windows desktop application with four primary spaces: Chat, Tasks, Memory and Settings.
+[← Yuiluma](README.md)
 
-| Included | Boundary |
+The current private Windows beta brings Chat, Tasks, Memory and Settings into one desktop application.
+
+| Available now | What to know |
 | --- | --- |
-| Conversation through a local Ollama server | Model installation is separate; chat support does not establish tool capability. |
-| Scoped file tools and approval dialogs | Work stays inside the chosen workspace; sensitive changes need approval. This is not an OS sandbox. |
-| Inspectable action and result evidence | A completed write does not prove an entire natural-language request was fulfilled. |
-| Optional First Hello | The greeting is a draft. Its file sample needs a chosen folder and explicit consent. |
-| Exact checks for the bounded file sample | Folder, exact UTF-8 content and readback are checked. This is not a general-purpose goal verifier. |
-| Local memories and optional conversation storage | Users choose what to retain; records are not application-encrypted. |
-| Scoped scheduled tasks | The app must be open; saved scope and current permissions still apply. |
-| Pause, Stop and window-close cleanup | Pause waits at a safe checkpoint. Completed changes are not automatically rolled back. |
-| Reduce Motion and Gaming mode | Optional motion and scheduling remain under user control. |
+| Local conversation with Reina | Ollama and its models are installed separately. Chat compatibility does not establish tool capability. |
+| Workspace file tools | Paths are scoped to the selected folder. New files follow workspace-write permissions; overwrites need approval. This is not an OS sandbox. |
+| Action and result evidence | Successful actions, unverified whole tasks, partial work, failures and cancellation remain distinct. |
+| Optional First Hello file task | Explicit consent starts a bounded task with folder, exact UTF-8 content and readback checks. This is not a general natural-language verifier. |
+| Local memory | Search, edit, pin, export or delete records. Conversation storage is optional. Records are not application-encrypted. |
+| Scheduled tasks | Yuiluma must remain open. Automatic starts require approval, and the saved scope intersects current permissions. Stop and Gaming mode suspend starts. |
+| Pause, Stop and safe closing | Pause waits at safe checkpoints. Stop cancels work and closing waits for cleanup. Completed changes are not automatically rolled back. |
+| Interface preferences | Reduce Motion and Gaming mode remain available alongside model, workspace and privacy settings. |
 
-The Y1 Woven Stem mark identifies the product. It is separate from Reina's character emblem. No 3D avatar, companion overlay, new character voice, microphone workflow or cloud AI service is part of this candidate.
+Reina is the assistant's identity; the Y1 Woven Stem is Yuiluma's product mark. A 3D avatar, desktop companion and dedicated character voice are future ideas. Legacy optional OS speech is separate from that work.
 
-The application is not publicly available. See the [roadmap](ROADMAP.md) for remaining release gates.
+No cloud AI service is part of this beta. Approved web tools can still contact public websites. See the [roadmap](ROADMAP.md) for outstanding work.
